@@ -1,8 +1,8 @@
 # Create your models here.
+from django.conf import settings
 from django.contrib.auth.models import (AbstractBaseUser, BaseUserManager,
                                         PermissionsMixin)
 from django.db import models
-from django.conf import settings
 
 
 def recipe_image_file_path(instance, filename):
